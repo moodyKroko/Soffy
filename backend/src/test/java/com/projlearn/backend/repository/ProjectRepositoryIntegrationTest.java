@@ -9,10 +9,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.soffy.backend.entity.Difficulty;
-import com.soffy.backend.entity.Project;
-import com.soffy.backend.entity.Status;
-import com.soffy.backend.repository.ProjectRepository;
+import com.soffy.backend.project.Difficulty;
+import com.soffy.backend.project.Project;
+import com.soffy.backend.project.ProjectRepository;
+import com.soffy.backend.project.Status;
 
 @RunWith(SpringRunner.class)
 @DataJpaTest

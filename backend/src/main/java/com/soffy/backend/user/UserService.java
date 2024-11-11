@@ -1,12 +1,9 @@
-package com.soffy.backend.services;
+package com.soffy.backend.user;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.stereotype.Component;
-
-import com.soffy.backend.entity.User;
-import com.soffy.backend.repository.UserRepository;
 
 @Component
 public class UserService {

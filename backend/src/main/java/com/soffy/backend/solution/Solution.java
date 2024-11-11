@@ -1,4 +1,4 @@
-package com.soffy.backend.entity;
+package com.soffy.backend.solution;
 
 import com.soffy.backend.model.BaseModel;
 

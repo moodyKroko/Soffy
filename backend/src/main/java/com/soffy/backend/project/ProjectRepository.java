@@ -1,13 +1,10 @@
-package com.soffy.backend.repository;
+package com.soffy.backend.project;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
-
-import com.soffy.backend.entity.Project;
-import com.soffy.backend.entity.Status;
 
 @Repository
 public interface ProjectRepository extends JpaRepository<Project, Long> {

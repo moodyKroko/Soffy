@@ -1,4 +1,4 @@
-package com.soffy.backend.entity;
+package com.soffy.backend.user;
 
 import org.springframework.core.style.ToStringCreator;
 

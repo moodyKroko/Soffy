@@ -4,9 +4,9 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import com.github.javafaker.Faker;
-import com.soffy.backend.controller.UserController;
-import com.soffy.backend.entity.User;
-import com.soffy.backend.services.UserService;
+import com.soffy.backend.user.User;
+import com.soffy.backend.user.UserController;
+import com.soffy.backend.user.UserService;
 
 import java.util.ArrayList;
 import java.util.List;

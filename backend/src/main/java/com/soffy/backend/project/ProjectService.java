@@ -1,4 +1,4 @@
-package com.soffy.backend.services;
+package com.soffy.backend.project;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,11 +14,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 
-import com.soffy.backend.entity.Project;
-import com.soffy.backend.entity.Solution;
-import com.soffy.backend.entity.Status;
-import com.soffy.backend.repository.ProjectRepository;
 import com.soffy.backend.shell.CompileCodeProcess;
+import com.soffy.backend.solution.Solution;
 
 @Component
 public class ProjectService {

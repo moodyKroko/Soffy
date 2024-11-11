@@ -1,4 +1,4 @@
-package com.soffy.backend.controller;
+package com.soffy.backend.project;
 
 import java.util.List;
 
@@ -10,9 +10,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.soffy.backend.entity.Project;
-import com.soffy.backend.services.ProjectService;
 
 @RestController
 public class ProjectController {

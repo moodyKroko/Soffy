@@ -6,10 +6,10 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
 import com.github.javafaker.Faker;
-import com.soffy.backend.entity.Difficulty;
-import com.soffy.backend.entity.Project;
-import com.soffy.backend.entity.Status;
-import com.soffy.backend.repository.ProjectRepository;
+import com.soffy.backend.project.Difficulty;
+import com.soffy.backend.project.Project;
+import com.soffy.backend.project.ProjectRepository;
+import com.soffy.backend.project.Status;
 
 @Component
 public class DBRunner implements CommandLineRunner {

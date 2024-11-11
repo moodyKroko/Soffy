@@ -1,8 +1,9 @@
-package com.soffy.backend.entity;
+package com.soffy.backend.project;
 
 import java.util.List;
 
 import com.soffy.backend.model.BaseModel;
+import com.soffy.backend.solution.Solution;
 
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
