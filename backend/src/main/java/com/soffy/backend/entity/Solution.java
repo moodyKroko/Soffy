@@ -1,6 +1,7 @@
-package com.projlearn.backend.entity;
+package com.soffy.backend.entity;
 
-import com.projlearn.backend.model.BaseModel;
+import com.soffy.backend.model.BaseModel;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;

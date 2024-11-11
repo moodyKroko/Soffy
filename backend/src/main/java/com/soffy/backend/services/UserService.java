@@ -1,10 +1,12 @@
-package com.projlearn.backend.services;
+package com.soffy.backend.services;
 
-import com.projlearn.backend.entity.User;
-import com.projlearn.backend.repository.UserRepository;
 import java.util.List;
 import java.util.Optional;
+
 import org.springframework.stereotype.Component;
+
+import com.soffy.backend.entity.User;
+import com.soffy.backend.repository.UserRepository;
 
 @Component
 public class UserService {

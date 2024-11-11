@@ -1,7 +1,5 @@
-package com.projlearn.backend.controller;
+package com.soffy.backend.controller;
 
-import com.projlearn.backend.entity.User;
-import com.projlearn.backend.services.UserService;
 import java.util.List;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -9,6 +7,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.soffy.backend.entity.User;
+import com.soffy.backend.services.UserService;
 
 @RestController
 @RequestMapping("users")

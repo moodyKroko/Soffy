@@ -1,4 +1,4 @@
-package com.projlearn.backend;
+package com.soffy.backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -16,7 +16,7 @@ public class BackendApplication {
     SpringApplication.run(BackendApplication.class, args);
   }
 
-	@Bean
+  @Bean
   public WebMvcConfigurer corsConfigurer() {
     return new WebMvcConfigurer() {
       @Override

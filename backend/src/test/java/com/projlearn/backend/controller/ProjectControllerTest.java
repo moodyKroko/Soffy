@@ -5,10 +5,12 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import com.github.javafaker.Faker;
-import com.projlearn.backend.entity.Difficulty;
-import com.projlearn.backend.entity.Project;
-import com.projlearn.backend.entity.Status;
-import com.projlearn.backend.services.ProjectService;
+import com.soffy.backend.controller.ProjectController;
+import com.soffy.backend.entity.Difficulty;
+import com.soffy.backend.entity.Project;
+import com.soffy.backend.entity.Status;
+import com.soffy.backend.services.ProjectService;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;

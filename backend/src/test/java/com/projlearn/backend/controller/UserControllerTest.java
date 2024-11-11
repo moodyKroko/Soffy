@@ -4,8 +4,10 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 import com.github.javafaker.Faker;
-import com.projlearn.backend.entity.User;
-import com.projlearn.backend.services.UserService;
+import com.soffy.backend.controller.UserController;
+import com.soffy.backend.entity.User;
+import com.soffy.backend.services.UserService;
+
 import java.util.ArrayList;
 import java.util.List;
 import org.junit.jupiter.api.Test;

@@ -1,10 +1,11 @@
-package com.projlearn.backend.model;
+package com.soffy.backend.model;
+
+import java.io.Serializable;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.MappedSuperclass;
-import java.io.Serializable;
 
 @MappedSuperclass
 public class BaseModel implements Serializable {

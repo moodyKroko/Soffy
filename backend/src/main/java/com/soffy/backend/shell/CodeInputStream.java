@@ -1,4 +1,4 @@
-package com.projlearn.backend.shell;
+package com.soffy.backend.shell;
 
 import java.io.BufferedReader;
 import java.io.InputStream;

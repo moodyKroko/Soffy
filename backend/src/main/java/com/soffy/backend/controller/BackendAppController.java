@@ -1,4 +1,4 @@
-package com.projlearn.backend.controller;
+package com.soffy.backend.controller;
 
 import org.springframework.context.annotation.Profile;
 import org.springframework.web.bind.annotation.RequestMapping;

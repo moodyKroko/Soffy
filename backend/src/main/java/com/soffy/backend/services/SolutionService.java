@@ -1,9 +1,11 @@
-package com.projlearn.backend.services;
+package com.soffy.backend.services;
 
-import com.projlearn.backend.entity.Solution;
-import com.projlearn.backend.repository.SolutionRepository;
 import java.util.List;
+
 import org.springframework.stereotype.Component;
+
+import com.soffy.backend.entity.Solution;
+import com.soffy.backend.repository.SolutionRepository;
 
 @Component
 public class SolutionService {
