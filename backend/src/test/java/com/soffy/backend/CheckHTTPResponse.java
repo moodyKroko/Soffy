@@ -1,4 +1,4 @@
-package com.projlearn.backend;
+package com.soffy.backend;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

@@ -1,4 +1,4 @@
-package com.projlearn.backend;
+package com.soffy.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
