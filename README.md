@@ -1,5 +1,5 @@
-# Final Year Project for CS-2023
-This is a repo for Computer Science Final Year Project for Year 2023.
+# Soffy
+Learn how to code through project based learning approach.
 
 ## Project structure
 ```
