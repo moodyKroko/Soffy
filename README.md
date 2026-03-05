@@ -1,6 +1,14 @@
 # Soffy
 Learn how to code through project based learning approach.
 
+Current status:
+- [x] Frontend framework changed from Next.js to just vite
+- [ ] Dockerizing backend to deploy on VPS
+- [ ] Migrating database to PostgreSQL
+- [ ] Building Authentication
+- [ ] Creating atleast 5 tutorials
+- [ ] Push to prod
+
 ## Project structure
 ```
 $PROJECT_ROOT
